@@ -2,7 +2,8 @@
   "kind": "collectionType",
   "collectionName": "categories",
   "info": {
-    "name": "category"
+    "name": "category",
+    "description": ""
   },
   "options": {
     "increments": true,
@@ -16,9 +17,10 @@
       "required": true,
       "unique": true
     },
-    "embark_n_explore": {
-      "model": "embarknexplore",
-      "via": "categories"
+    "embark_n_explores": {
+      "collection": "embarknexplore",
+      "via": "categories",
+      "dominant": true
     }
   }
 }
