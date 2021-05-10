@@ -18,8 +18,8 @@
       "unique": true
     },
     "embark_n_explores": {
-      "collection": "embarknexplore",
       "via": "categories",
+      "collection": "embarknexplore",
       "dominant": true
     }
   }

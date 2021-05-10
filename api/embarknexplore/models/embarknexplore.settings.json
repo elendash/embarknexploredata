@@ -18,7 +18,8 @@
       "unique": true
     },
     "opening": {
-      "type": "time"
+      "type": "time",
+      "default": "23:30:00"
     },
     "closing": {
       "type": "time"
