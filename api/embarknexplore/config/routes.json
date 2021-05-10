@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/embarknexplores",
+      "handler": "embarknexplore.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/embarknexplores/count",
+      "handler": "embarknexplore.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/embarknexplores/:id",
+      "handler": "embarknexplore.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/embarknexplores",
+      "handler": "embarknexplore.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/embarknexplores/:id",
+      "handler": "embarknexplore.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/embarknexplores/:id",
+      "handler": "embarknexplore.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

@@ -1,0 +1,70 @@
+{
+  "kind": "collectionType",
+  "collectionName": "database",
+  "info": {
+    "name": "embark_n_explore",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "brand_or_location": {
+      "type": "string",
+      "required": true,
+      "unique": true
+    },
+    "opening": {
+      "type": "time"
+    },
+    "closing": {
+      "type": "time"
+    },
+    "closed_on": {
+      "type": "enumeration",
+      "enum": [
+        "Monday",
+        "Tuesday",
+        "Wednesday",
+        "Thursday",
+        "Friday",
+        "Saturday",
+        "Sunday",
+        "Weekdays",
+        "Weekends",
+        "PH",
+        "More_than_one_day_see_remark"
+      ]
+    },
+    "address": {
+      "type": "text"
+    },
+    "postal_code": {
+      "type": "biginteger"
+    },
+    "website": {
+      "type": "string"
+    },
+    "contact": {
+      "type": "biginteger"
+    },
+    "remarks": {
+      "type": "text"
+    },
+    "legit_votes": {
+      "type": "integer",
+      "default": 0
+    },
+    "not_legit": {
+      "type": "integer",
+      "default": 0
+    },
+    "categories": {
+      "via": "embark_n_explore",
+      "collection": "category"
+    }
+  }
+}
