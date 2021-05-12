@@ -9,9 +9,20 @@
     "build": "strapi build",
     "strapi": "strapi"
   },
-  "devDependencies": {},
+  "devDependencies": {
+    "3": "^2.1.0",
+    "-": "0.0.1",
+    "@buffetjs/utils": "^3.3.5",
+    "@hapi/hoek": "^9.2.0",
+    "boom": "^7.3.0",
+    "bootstrap": "^4.6.0",
+    "debug": "^4.3.1",
+    "jquery": "^1.9.1",
+    "yup": "^0.27.0"
+  },
   "dependencies": {
-    "strapi": "3.6.1",
+    "@hapi/boom": "^9.1.2",
+    "strapi": "^3.6.1",
     "strapi-admin": "3.6.1",
     "strapi-connector-mongoose": "3.6.1",
     "strapi-plugin-content-manager": "3.6.1",
