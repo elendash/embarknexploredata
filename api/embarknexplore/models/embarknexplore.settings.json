@@ -36,8 +36,8 @@
         "Sunday",
         "Weekdays",
         "Weekends",
-        "PH",
-        "More_than_one_day_see_remark"
+        "Public_Holidays",
+        "More_than_one_day_see_remarks"
       ]
     },
     "address": {
