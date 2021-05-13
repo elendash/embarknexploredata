@@ -27,6 +27,7 @@
     "closed_on": {
       "type": "enumeration",
       "enum": [
+        "None",
         "Monday",
         "Tuesday",
         "Wednesday",
@@ -38,7 +39,8 @@
         "Weekends",
         "Public_Holidays",
         "More_than_one_day_see_remarks"
-      ]
+      ],
+      "default": "None"
     },
     "address": {
       "type": "text"
